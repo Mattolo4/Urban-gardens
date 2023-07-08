@@ -106,4 +106,5 @@ the average yield per square meter can give highly different results, so it coul
 with the statistic gathered the previous year to better
 learn the real possibilities of urban gardening. The
 code and other result images are left in the repository
-for the reader. 
+for the reader.</br></br>
+For sure the code and the functions could be improved a lot, this was an interesting school project that we had to submit within 3-days. If you want, feel free to take the code, edit it and use it as you prefere :)
