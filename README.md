@@ -54,7 +54,7 @@ improvement could be to implement another artificial
 intelligence system to monitor the plant’s health and
 pathologies through various sensors and computer vision to recognize signs of disease or nutrient deficiencies.</br></br>
 
-![Selected and discarded plots](imgs/sel-discardedPlots.pngimage.png)
+![Selected and discarded plots](imgs/sel-discardedPlots.png)
 
 </br>
 Finally the constraints can be discussed. Firstly every
@@ -91,7 +91,6 @@ each plot to every neighbor is shown below.</br>
 
 ![Optimized Solution](imgs/optimizedSolution.png)
 
-
 ## Conclusion
 
 In conclusion our AI tool was able to select the best
@@ -107,4 +106,4 @@ the average yield per square meter can give highly different results, so it coul
 with the statistic gathered the previous year to better
 learn the real possibilities of urban gardening. The
 code and other result images are left in the repository
-for the reader.
+for the reader. 
