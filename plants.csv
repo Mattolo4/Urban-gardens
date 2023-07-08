@@ -1,0 +1,21 @@
+Plants,MONTHS landfill,MONTHS landfill 2,PRODUCTION TIME (weeks),MINIMUM TEMPERATURE,MAXIMUM TEMPERATURE,YIELD PER SQM
+1,GARLIC,October-February,,16,-5,25,1
+2,BROCCOLI,March-April,,16,5,35,1
+3,CARROTS,February-September,,10,15,35,4
+4,KALE,April-September,,8,5,35,1
+5,ONIONS,October-November,March-May,12,0,30,3
+6,GREEN BEANS,January-December,,7,10,35,3
+7,CHICORY,February-March,July-September,8,5,25,3
+8,LETTUCE,April-July,,6,10,25,3
+9,EGGPLANT,March-June,,9,15,35,4
+10,MELON,March-June,,10,15,40,3
+11,POTATOES,February-March,September-October,16,10,25,4
+12,CHILI PEPPERS,April-July,,8,15,40,0.5
+13,BELL PEPPER,March-June,,8,15,40,4
+14,PEAS,October-April,,8,0,30,1
+15,TOMATOES,March-April,,10,15,35,4
+16,RADICCHIO,May-July,,8,-5,25,3
+17,SPINACH,February-October,,8,10,30,2
+18,CABBAGE,June-September,,10,-5,25,5
+19,PUMPKIN,March-June,,15,15,40,13
+20,ZUCCHINI,February-August,,6,10,40,3

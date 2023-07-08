@@ -1,0 +1,16 @@
+pip install geopandas
+pip install rtree
+pip install osmnx
+pip install shapely
+pip install pulp
+pip install meteostat
+
+
+COLORS:
+possible locations = orange
+hoods = #0059b3
+
+selected location = #00960a
+discarded location = #990000
+
+line = #01678f
