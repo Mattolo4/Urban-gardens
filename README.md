@@ -28,11 +28,8 @@ Firstly we assume that each city has a certain number of plots that are availabl
 For this project these are randomly generated, however the idea is that in a real application a city government draws up a list of plots with location and size.</br> 
 This is also the case for the neighborhoods, in which case the number of neighborhoods generated depends on the city land size and the number of people in each neighborhoods depends on the city population. </br></br>
 Taking for example the city of OSLO 45 different neighborhoods and 122 possible plots were generated. </br></br>
-<p align="center">
 
 ![Generated plots and neighborhoods for the city of OSLO](imgs/plotOslo.png)
-
-</p>
 </br>
 
 Finally a produce goal is set, this will be a percentage
@@ -56,49 +53,34 @@ good starting point to improve. </br></br>For example a future
 improvement could be to implement another artificial
 intelligence system to monitor the plant’s health and
 pathologies through various sensors and computer vision to recognize signs of disease or nutrient deficiencies.</br></br>
-<p align="center">
 
 ![Selected and discarded plots](imgs/sel-discardedPlots.png)
-
-</p>
 
 </br>
 Finally the constraints can be discussed. Firstly every
 neighborhood must access only 1 plot:
-<p align="center">
 
 ![Constraint 1](imgs/constraint1.png)
-
-</p>
 
 </br>Where x<sub>ij</sub> = 1 if and only if the neighborhood i is
 connected to plot j. </br>Another constraint is that the
 demand of each neighborhood assigned to plot j must
 be lower than it’s yield:
-<p align="center">
 
 ![Constraint 1](imgs/constraint2.png)
-
-</p>
 
 </br>Every neighborhood must also be connected only to an
 activated (chosen) plot:</br>
 
-<p align="center">
 
 ![Constraint 3](imgs/constraint3.png)
-
-</p>
 
 
 </br>
 Where y<sub>j</sub> = 1 when the plot j is selected. </br>The objective
 function to be optimized is then written as follows:</br>
-<p align="center">
 
 ![Objective Function](imgs/objFunct.png)
-
-</p>
 
 </br>Where d<sub>j</sub> is the size of plot j and c<sub>ij</sub> is the cost associated with the distance between neighborhood i and
 plot j. </br></br>This was all implemented in a python script,
@@ -106,11 +88,8 @@ the output of which can be seen in the Figure 2 where,
 for the example of Oslo, only 20 plots were needed and
 chosen from the 122 possible. The final assignment of
 each plot to every neighbor is shown below.</br>
-<p align="center">
 
 ![Optimized Solution](imgs/optimizedSolution.png)
-
-</p>
 
 ## Conclusion
 
