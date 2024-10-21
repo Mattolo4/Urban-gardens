@@ -108,3 +108,8 @@ learn the real possibilities of urban gardening. The
 code and other result images are left in the repository
 for the reader.</br></br>
 For sure the code and the functions could be improved a lot, this was an interesting school project that we had to submit within 3-days. If you want, feel free to take the code, edit it and use it as you prefere :)
+
+## Developers
+- Davide Delrio
+- [Stefano Trenti](https://github.com/TrentiStefano)
+- [Matteo Villani](https://github.com/Mattolo4?tab=repositories)
